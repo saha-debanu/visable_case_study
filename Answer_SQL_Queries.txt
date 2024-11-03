@@ -1,0 +1,11 @@
+SQL queries can be found in path: sql/analysis_queries.sql
+
+1. How did the average revenue (base price + consumption * energy price, baseprice+ consumption * workingprice) per contract develop between 01.10.2020 and 01.01.2021? 
+A: AVG(base_price + (usage * energy_price)) - 0.18271443699258736322
+   AVG(base_price + (usage * working_price)) - 637.4594528768090364
+
+2. How many contracts were on delivery on 01.01.2021?
+A: 23160
+
+3. How many new contracts were loaded into the DWH on 01.12.2020?
+A: 60
